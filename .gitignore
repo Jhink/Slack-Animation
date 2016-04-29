@@ -39,3 +39,5 @@ public
 
 src/fonts
 src/vendor
+.bowerrc
+bower.json
