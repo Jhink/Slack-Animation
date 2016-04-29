@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/undefined"
+    "url": "https://github.com/Jhink/slack-animation"
   },
   "keywords": [],
   "author": "James",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/undefined/issues"
+    "url": "https://github.com/Jhink/slack-animation/issues"
   },
-  "homepage": "https://github.com/undefined#readme",
+  "homepage": "https://jhink.github.io/slack-animation",
   "devDependencies": {
     "browser-sync": "^2.11.0",
     "browserify": "^13.0.0",
@@ -28,7 +28,6 @@
     "gulp-cssnano": "^2.0.0",
     "gulp-jade": "^1.1.0",
     "gulp-jshint": "^2.0.0",
-    "gulp-kraken": "0.0.1",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.1.1",
     "gulp-sourcemaps": "^1.6.0",

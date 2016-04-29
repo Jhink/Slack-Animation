@@ -59,23 +59,10 @@ gulp.task( 'scripts', function() {
 gulp.task( 'styles', function() {
     gulp.src( './src/styles/main.sass' )
         /*.pipe(sourcemaps.init())*/
-            .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+        .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         /*.pipe(sourcemaps.write(config.dest.maps))*/
-        /*.pipe(autoprefixer({ browsers: ['last 3 versions'] }))*/
+        .pipe(autoprefixer({ browsers: ['last 3 versions'] }))
         .pipe(gulp.dest(config.dest.css))
-        .pipe(browserSync.stream());
-});
-
-/* Generating Docs for SASS */
-gulp.task( 'sassdoc', function () {
-    gulp.src( config.src.styles )
-        .pipe( sassdoc( sassdocOptions ) )
-        .resume();
-});
-
-gulp.task( 'html', function() {
-    gulp.src( config.src.html )
-        .pipe( gulp.dest( config.dest.html ) )
         .pipe(browserSync.stream());
 });
 

@@ -15,8 +15,6 @@ results
 npm-debug.log
 node_modules
 
-## Bower
-src/assets/vendor
 
 ## Sass
 .sass-cache
@@ -37,7 +35,7 @@ Desktop.ini
 $RECYCLE.BIN/
 
 ## Destination folder
-dest
-layouts/images
-layouts/edit
-src/assets/images/images
+public
+
+src/fonts
+src/vendor
